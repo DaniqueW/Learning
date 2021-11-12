@@ -1,3 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url(./images/background.jpg);
+}
+
+main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cow {
+    transition: 0.3s;
+    width: 550px;
+    cursor: pointer;
+    border-radius: 180px;
+}
+
+#cow:hover {
+    transform: scale(1.05);
+}
+
+#teller {
+    color: #fc92be;
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    line-height: 50px;
+    background-color: white;
+    padding: 10px 30px;
+    padding-bottom: 28px;
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 15px;
+    border-color: lightblue;
 }
