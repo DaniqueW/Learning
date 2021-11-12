@@ -25,7 +25,7 @@ main {
 #cow {
     transition: 0.3s;
     width: 550px;
-    cursor: pointer;
+    cursor: url("images/hay.png"), pointer !important;
     border-radius: 180px;
 }
 
