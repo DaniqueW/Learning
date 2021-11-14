@@ -9,7 +9,7 @@ body {
     background-image: url(./images/background.jpg);
 }
 
-main {
+.pink_box {
     position: absolute;
     left: 0;
     right: 0;
@@ -17,9 +17,15 @@ main {
     top: 0;
 
     display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 #cow {
@@ -33,7 +39,7 @@ main {
     transform: scale(1.05);
 }
 
-#titel {
+#title {
     font-family: 'Pacifico', cursive;
     font-size: 50px;
     background-image: linear-gradient(180deg, lightblue, black);
@@ -42,7 +48,7 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-#teller {
+#counter {
     color: #fc92be;
     font-family: 'Pacifico', cursive;
     font-size: 80px;
@@ -50,6 +56,15 @@ main {
     background-color: white;
     padding: 10px 30px;
     padding-bottom: 28px;
+}
+
+#shop, #purchased {
+    width: 350px;
+    background-color: white;
+    margin: 40px 80px;
+}
+
+.blue_border {
     border-style: ridge;
     border-width: 10px;
     border-radius: 15px;
