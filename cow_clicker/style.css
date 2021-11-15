@@ -70,3 +70,25 @@ main {
     border-radius: 15px;
     border-color: lightblue;
 }
+
+.product {
+    border-bottom: 5px ridge lightblue;
+    height: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product img {
+    width: 75%;
+}
+
+.product p {
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, lightblue, black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
