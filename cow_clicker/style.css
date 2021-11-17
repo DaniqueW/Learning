@@ -78,10 +78,16 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
-.product img {
-    width: 75%;
+ .product img {
+    width: 70%;
+    transition: 0.3s;
+}
+
+#shop .product img:hover {
+    transform: scale(1.1);
 }
 
 .product p {
@@ -91,4 +97,13 @@ main {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.product .effect {
+    font-family: "Pacifico", cursive;
+    font-size: 15px;
+    background-image: linear-gradient(180deg, black, lightblue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 }
